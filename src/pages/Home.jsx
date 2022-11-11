@@ -1,6 +1,10 @@
 function Home() {
   return ( 
-    <h1>Software Engineer</h1>
+    <div id="home-about">
+      <h1> Ryan Combest </h1>
+      <h2> Software Engineer </h2>
+      <p>People pleaser, coffee enjoyer, philosophy nerd</p>
+    </div>
   )
 }
 
