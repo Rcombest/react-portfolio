@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="about">
       <h1>About Me</h1>
-      <p>My name is Ryan Combest, I'm a fullstack software engineer who brings a light-hearted attitude and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request.</p>
+      <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request.</p>
       <div>
         <h2>Hobbies</h2>
         <ul>
