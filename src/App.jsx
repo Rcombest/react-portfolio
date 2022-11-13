@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
+import ProjectDetails from './pages/ProjectDetails';
 
 
 function App() {
@@ -13,11 +14,12 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path='/About' element={<About />} />
+        <Route path='/about' element={<About />} />
         <Route path='/' element={<Home />} />
-        <Route path='/Contact' element={<Contact />} />
-        <Route path='/Resume' element={<Resume />} />
-        <Route path='/Projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
     </>
   );
