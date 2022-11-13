@@ -1,8 +1,15 @@
-// import { projects } from "../data/projects"
+import { projects } from "../data/projects.js"
+import ProjectsList from "../components/ProjectsList.jsx"
 
 function Projects() {
+  console.log(projects)
   return (  
-    <h1>Projects</h1>
+    <>
+      <h1>Projects</h1>
+      <div>
+        <ProjectsList projects={projects}/>
+      </div>
+    </>
   )
 }
 
