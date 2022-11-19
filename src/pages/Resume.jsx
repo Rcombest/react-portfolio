@@ -1,8 +1,10 @@
+import "./Resume.module.css"
+
 function Resume() {
   return (  
     <div>
       <h1>Resume</h1>
-      <p>Download my resume <a href="/Resume.pdf" download>here</a>!</p>
+      <h2>Download my resume <a href="/Resume.pdf" download>here</a>!</h2>
     </div>
   )
 }
