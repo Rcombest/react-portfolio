@@ -17,11 +17,18 @@ const projects = [
   },
   {
     title: "Relocate.",
-    description: " Built using Azure, CSS, HTML, JavaScript, MongoDB, MUI, and the MERN stack in collaboration with Stephanie Michael and Zeus Zaragoza-Gildo, Relocate is an app that seeks to make moving easier and give users peace of mind throughout the moving process. Users are able to create a profile and create, read, update, and delete to-do lists and their individual items as well as create, read, update, and delete wishlists and wishlist items. Users are also able to add images of and links to their wishlist items.",
+    description: "Built using Azure, CSS, HTML, JavaScript, MongoDB, MUI, and the MERN stack in collaboration with Stephanie Michael and Zeus Zaragoza-Gildo, Relocate is an app that seeks to make moving easier and give users peace of mind throughout the moving process. Users are able to create a profile and create, read, update, and delete to-do lists and their individual items as well as create, read, update, and delete wishlists and wishlist items. Users are also able to add images of and links to their wishlist items.",
     image: "/Relocate.png",
     repoLink: "https://github.com/zgildo01/Relocate-back-end",
     deployedLink: "https://cgcorelocate.netlify.app/",
   },
+  {
+    title: "Discog-Cat Record Collector",
+    description: "Built using CSS, Django, HTML, MCDatepicker, Python, with art by Hunter Long, and deployed using Heroku: Discog-Cat Record Collector allows users to be more mindful of their listening habits by allowing users to track their time with the records they love. Users are able to create a profile and add their records to their profile. Users are also able to create songs and add them to their records. Once a record has been created, users are able to add a previous listening session or schedule a session for the future, as well as track how much of their record they spent time with.",
+    image: "/DiscogCat.png",
+    repoLink: "https://github.com/Rcombest/record-collector",
+    deployedLink: "https://discog-cat.herokuapp.com/"
+  }
 ]
 
 export {
