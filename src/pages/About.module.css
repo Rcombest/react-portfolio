@@ -1,0 +1,17 @@
+/* .about {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: auto 1fr auto;
+} */
+
+.abtimg {
+  width: 300px;
+  margin: 10px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
