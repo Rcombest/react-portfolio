@@ -22,3 +22,43 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.favorites {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.books {
+  font-weight: bold;
+}
+
+.booksList {
+  font-weight: normal;
+}
+
+.games {
+  font-weight: bold;
+}
+
+.gamesList {
+  font-weight: normal;
+}
+
+.records {
+  font-weight: bold;
+}
+
+.recordsList {
+  font-weight: normal;
+}
+
+.podcasts {
+  font-weight: bold;
+}
+
+.podcastsList {
+  font-weight: normal;
+}

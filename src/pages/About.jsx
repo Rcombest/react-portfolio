@@ -15,30 +15,30 @@ function About() {
         </ul>
         <div>
           <h2>Favorites</h2>
-          <ul>
-            <li>Books:
-              <ul>
+          <ul className={styles.favorites}>
+            <li className={styles.books}>Books:
+              <ul className={styles.booksList}>
                 <li>The Sickness Unto Death by Soren Kierkegaard</li>
                 <li>I and Thou by Martin Buber</li>
                 <li>From Hell by Alan Moore</li>
               </ul>
             </li>
-            <li>Games: 
-              <ul>
+            <li className={styles.games}>Games: 
+              <ul className={styles.gamesList}>
                 <li>Kingdom Hearts 2</li>
                 <li>Metal Gear Solid 2</li>
                 <li>Final Fantasy IX</li>
               </ul>
             </li>
-            <li>Records:
-              <ul>
+            <li className={styles.records}>Records:
+              <ul className={styles.recordsList}>
                 <li>Good Apollo, I'm Burning Star IV Vol. One by Coheed & Cambria</li>
                 <li>Brother, Sister by mewithoutYou</li>
                 <li>Raise Your Skinny Fists Like Antennas to Heaven by Godspeed You! Black Emperor</li>
               </ul>
               </li>
-              <li>Podcasts:
-                <ul>
+              <li className={styles.podcasts}>Podcasts:
+                <ul className={styles.podcastsList}>
                   <li>The First Ever Podcast</li>
                   <li>The P.O.D. Kast</li>
                   <li>The Adventure Zone</li>
