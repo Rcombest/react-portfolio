@@ -8,7 +8,7 @@ function About() {
       <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request.</p>
       <div>
         <h2>Hobbies</h2>
-        <ul>
+        <ul className={styles.hobbies}>
           <li>Putting on a record and sitting down with a book</li>
           <li>Playing video games with friends</li>
           <li>Listening to podcasts</li>

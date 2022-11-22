@@ -12,6 +12,13 @@
 p {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
+}
+
+.hobbies {
+  display: list-item;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
