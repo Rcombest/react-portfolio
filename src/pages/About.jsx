@@ -7,7 +7,7 @@ function About() {
         <h1>About Me</h1>
         <img src="/AboutPic.jpeg" alt="Ryan Combest" className={styles.abtimg} />
           <div className={styles.offset}>
-            <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request.</p>
+            <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request. I believe in practicing good stewardship through actively engaging with our ever-evolving world, and it's social and technological trends in good faith. With a background in fields ranging from service, hospitality, and entertainment to behavioral health administration, I'm highly adaptable, constantly seeking to expand my horizons, push myself to learn new skills, and grow as a person.</p>
           </div>
       </div>
       <div>
