@@ -8,7 +8,7 @@ const ProjectPreview = (props) => {
     <>
       <Link to={path}>
 
-        <div>
+        <div className={styles.proj}>
           <img
             className={styles.projimg}
             src={props.project.image}
@@ -19,9 +19,9 @@ const ProjectPreview = (props) => {
             <h3>
               {props.project.title}
             </h3>
-            <button>
+            {/* <button>
               Learn more
-            </button>
+            </button> */}
           </section>
         </div>
       </Link>
