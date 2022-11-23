@@ -2,10 +2,14 @@ import styles from "./About.module.css"
 
 function About() {
   return (
-    <div className={styles.about}>
-      <h1>About Me</h1>
-      <img src="/AboutPic.jpeg" alt="Ryan Combest" className={styles.abtimg} />
-      <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request.</p>
+    <div>
+      <div className={styles.about}>
+        <h1>About Me</h1>
+        <img src="/AboutPic.jpeg" alt="Ryan Combest" className={styles.abtimg} />
+          <div className={styles.offset}>
+            <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request.</p>
+          </div>
+      </div>
       <div>
         <h2>Hobbies</h2>
         <ul className={styles.hobbies}>
