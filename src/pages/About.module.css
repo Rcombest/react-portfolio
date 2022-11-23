@@ -8,12 +8,12 @@
   "abtimg p p";
 }
 
-h1 {
+.heading {
   text-decoration: underline;
   grid-area: h1;
 }
 
-h2 {
+.subheading {
   text-decoration: underline;
 }
 

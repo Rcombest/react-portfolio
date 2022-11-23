@@ -4,21 +4,21 @@ function About() {
   return (
     <div>
       <div className={styles.about}>
-        <h1>About Me</h1>
+        <h1 className={styles.heading}>About Me</h1>
         <img src="/AboutPic.jpeg" alt="Ryan Combest" className={styles.abtimg} />
           <div className={styles.offset}>
             <p>My name is Ryan Combest, I'm a user-focused Software Engineer who brings humor and empathy to everything I do. With a passion for the backend, I seek to bring creative and technical finesse with every post request. I believe in practicing good stewardship through actively engaging with our ever-evolving world, and it's social and technological trends in good faith. With a background in fields ranging from service, hospitality, and entertainment to behavioral health administration, I'm highly adaptable, constantly seeking to expand my horizons, push myself to learn new skills, and grow as a person.</p>
           </div>
       </div>
       <div>
-        <h2>Hobbies</h2>
+        <h2 className={styles.subheading}>Hobbies</h2>
         <ul className={styles.hobbies}>
           <li>Putting on a record and sitting down with a book</li>
           <li>Playing video games with friends</li>
           <li>Listening to podcasts</li>
         </ul>
         <div>
-          <h2>Favorites</h2>
+          <h2 className={styles.subheading}>Favorites</h2>
           <ul className={styles.favorites}>
             <li className={styles.books}>Books:
               <ul className={styles.booksList}>
