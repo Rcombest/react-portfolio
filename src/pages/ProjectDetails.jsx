@@ -10,14 +10,18 @@ const ProjectDetails = () => {
   return ( 
     <>
       <h1>{project.title}</h1>
-      <p>{project.description}</p>
-      <img src={project.image} alt={project.title} className={styles.detailsImage} />
-      <a href={project.repoLink} target='_blank' rel='noreferrer'>
-        <button>GitHub</button>
-      </a>
-      <a href={project.deployedLink} target='_blank' rel='noreferrer'>
-        <button>Launch</button>
-      </a>
+      <div className={styles.details}>
+        <img src={project.image} alt={project.title} className={styles.detailsImage} />
+        <p className={styles.projDesc}>{project.description}</p>
+          <div className={styles.btns}>
+            <a href={project.repoLink} target='_blank' rel='noreferrer' className={styles.repoLink}>
+              <button className={styles.ghBtn}>GitHub</button>
+            </a>
+            <a href={project.deployedLink} target='_blank' rel='noreferrer' className={styles.deployedLink}>
+              <button className={styles.launchBtn}>Launch</button>
+            </a>
+          </div>
+      </div>
     </>
   );
 }

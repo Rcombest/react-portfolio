@@ -1,3 +1,41 @@
 .detailsImage {
   width: 50%;
+  margin: 15px;
+  padding: 15px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projDesc {
+  margin: 15px;
+  padding: 15px;
+  
+}
+
+.btns {
+  margin: 15px;
+  padding: 15px;
+}
+
+.ghBtn {
+  margin: 15px;
+  padding: 15px;
+}
+
+.launchBtn {
+  margin: 15px;
+  padding: 15px;
+}
+
+.repoLink {
+  margin: 15px;
+}
+
+.deployedLink {
+  margin: 15px;
 }
