@@ -19,9 +19,6 @@ const ProjectPreview = (props) => {
             <h3>
               {props.project.title}
             </h3>
-            {/* <button>
-              Learn more
-            </button> */}
           </section>
         </div>
       </Link>
