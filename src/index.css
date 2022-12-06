@@ -31,3 +31,18 @@ p {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+a:link {
+  color: #A8D0DB;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #6F7FC3;
+  background-color: transparent;
+}
+
+a:focus {
+  color: #E2DADB;
+  background-color: transparent;
+}
