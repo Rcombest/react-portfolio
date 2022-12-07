@@ -5,6 +5,7 @@
   flex-direction: column;
 }
 
-.png {
-  width: 25%;
+.pdf {
+  width: 90%;
+  height: 100vh;
 }
