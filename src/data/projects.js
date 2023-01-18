@@ -22,13 +22,13 @@ const projects = [
     repoLink: "https://github.com/zgildo01/Relocate-back-end",
     deployedLink: "https://cgcorelocate.netlify.app/",
   },
-  {
-    title: "Discog-Cat Record Collector",
-    description: "[CURRENTLY PENDING REDEPLOYMENT] Built using CSS, Django, HTML, MCDatepicker, Python, with art by Hunter Long, and deployed using Heroku: Discog-Cat Record Collector allows users to be more mindful of their listening habits by allowing users to track their time with the records they love. Users are able to create a profile and add their records to their profile. Users are also able to create songs and add them to their records. Once a record has been created, users are able to add a previous listening session or schedule a session for the future, as well as track how much of their record they spent time with.",
-    image: "/DiscogCat.png",
-    repoLink: "https://github.com/Rcombest/record-collector",
-    deployedLink: "https://discog-cat.herokuapp.com/"
-  }
+  // {
+  //   title: "Discog-Cat Record Collector",
+  //   description: "[CURRENTLY PENDING REDEPLOYMENT] Built using CSS, Django, HTML, MCDatepicker, Python, with art by Hunter Long, and deployed using Heroku: Discog-Cat Record Collector allows users to be more mindful of their listening habits by allowing users to track their time with the records they love. Users are able to create a profile and add their records to their profile. Users are also able to create songs and add them to their records. Once a record has been created, users are able to add a previous listening session or schedule a session for the future, as well as track how much of their record they spent time with.",
+  //   image: "/DiscogCat.png",
+  //   repoLink: "https://github.com/Rcombest/record-collector",
+  //   deployedLink: "https://discog-cat.herokuapp.com/"
+  // }
 ]
 
 export {
